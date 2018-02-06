@@ -16,16 +16,16 @@ Se han utilizado los siguientes elementos:
 Se han añadido los siguientes elementos:
 
 1. Main.css -> Contiene el estilo CSS modificado para el sitio web
-  * Añadida fuente **Lobster** desde [Google Fonts](https://fonts.google.com/specimen/Lobster)
-  * Se han redefinido las clases **Jumbotron** para albergar imágenes de fondo
-  * Se ha personalizado el **Footer** con vistas distintas para dispositivos móviles y ordenadores personales
-  * Se ha personalizado el mapa, ya que al cargarse a través de un iframe los tamaños tenían que establecerse en píxeles y se ha adaptado para que se adapte al ancho y al alto del dispositivo que se está utilizando
-  *
+  1. Añadida fuente **Lobster** desde [Google Fonts](https://fonts.google.com/specimen/Lobster)
+  2. Se han redefinido las clases **Jumbotron** para albergar imágenes de fondo
+  3. Se ha personalizado el **Footer** con vistas distintas para dispositivos móviles y ordenadores personales
+  4. Se ha personalizado el mapa, ya que al cargarse a través de un iframe los tamaños tenían que establecerse en píxeles y se ha adaptado para que se adapte al ancho y al alto del dispositivo que se está utilizando
+
 2. Fontawesome version 4.7.0 -> Se ha utilizado para añadir iconos al sitio web
-  * Iconos de la barra de navegación
-  * Iconos en el Footer
-  * Iconos en el apartado de reseñas
-  
+  1. Iconos de la barra de navegación
+  2. Iconos en el Footer
+  3. Iconos en el apartado de reseñas
+
 3. Main.js -> Contiene modificaciones basadas en Jquery para realizar una animación al index.html
 4. Imágenes -> Se han utilizado imágenes libres bajo licencia [Unsplash](https://unsplash.com/license)
 
