@@ -1,8 +1,8 @@
-#La Casona Website
+# La Casona Website
 
 La página web está realizada bajo el framework **Bootstrap 4**
 
-#Elementos base del website
+# Elementos base del website
 
 Se han utilizado los siguientes elementos:
 
@@ -11,7 +11,7 @@ Se han utilizado los siguientes elementos:
 3. Popper versión 1.12.9
 4. Bootstrap JS versión 4.0.0
 
-#Elementos añadidos del website
+# Elementos añadidos del website
 
 Se han añadido los siguientes elementos:
 
@@ -21,6 +21,6 @@ Se han añadido los siguientes elementos:
 3. Main.js -> Contiene modificaciones basadas en Jquery para realizar una animación al index.html
 4. Imágenes -> Se han utilizado imágenes libres bajo licencia [Unsplash](https://unsplash.com/license)
 
-#Versión en producción
+# Versión en producción
 
 El sitio web se ha puesto en producción y se puede visitar en el siguiente enlace: [jaidis.github.io/casona/](jaidis.github.io/casona/)
