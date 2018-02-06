@@ -23,4 +23,4 @@ Se han añadido los siguientes elementos:
 
 # Versión en producción
 
-El sitio web se ha puesto en producción y se puede visitar en el siguiente enlace: [jaidis.github.io/casona/](jaidis.github.io/casona/)
+El sitio web se ha puesto en producción y se puede visitar en el siguiente enlace: [jaidis.github.io/casona/](https://jaidis.github.io/casona/)
