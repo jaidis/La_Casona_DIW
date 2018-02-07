@@ -246,6 +246,16 @@
   color: #FF851B !important;
 }
 
+.estrellas{
+  font-size: 2em !important;
+}
+
+@media (min-width: 426px) {
+  .estrellas {
+    font-size: 3em !important;
+  }
+}
+
 /******************************************************************************
 *
 *  Contenedor Galeria
@@ -306,11 +316,11 @@
 
 /******************************************************************************
 *
-*  Media Query < 768px
+*  Media Query > 700px
 *
 ******************************************************************************/
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .row-cartas {
     text-align: center;
   }
