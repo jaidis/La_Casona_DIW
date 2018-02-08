@@ -26,8 +26,9 @@ Se han añadido los siguientes elementos:
   * Iconos en el Footer
   * Iconos en el apartado de reseñas
 
-3. Main.js -> Contiene modificaciones basadas en Jquery para realizar una animación al index.html
-4. Imágenes -> Se han utilizado imágenes libres bajo licencia [Unsplash](https://unsplash.com/license)
+3. Animate.css -> Libreria en css [Animate.css](https://daneden.github.io/animate.css/) que contiene efectos y animaciones
+4. Main.js -> Contiene modificaciones basadas en Jquery para realizar animaciones en las páginas webs
+5. Imágenes -> Se han utilizado imágenes libres bajo licencia [Unsplash](https://unsplash.com/license)
 
 # Versión en producción
 
