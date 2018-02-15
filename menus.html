@@ -25,7 +25,7 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html"><i class="fa fa-home fa-fw mx-2"></i>Inicio</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="carta.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-cutlery fa-fw mx-2"></i>Carta/Menú
           </a>
@@ -45,7 +45,7 @@
             Reserva
           </a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="contacto.html">
             <i class="fa fa-info fa-fw mx-2"></i>
             Contacto
@@ -66,36 +66,140 @@
       </ul>
     </div>
   </nav>
-  <div class="container container-contacto rounded" id="principal">
+  <div class="container container-carta rounded"id="principal">
     <div class="row">
-      <div class="col-12 col-md-10 offset-md-1">
-        <div class="jumbotron jumbotron-container-contacto">
-          <h1 class="h1-jumbotron">Dirección</h1>
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-              <p class="titulo text-center">
-                Calle Lanjarón, 8<br/> Albolote - Granada<br/> CP: 18220
-              </p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-5">
-              <p class="titulo text-center">
-                Teléfono <em>958 49 00 00</em><br/> Horario <em>L-V 07:00 20:00</em>
-              </p>
+      <div class="col-md-4 col-lg-3 col-xl-2 d-none d-md-block menu-cartas mx-2">
+        <div class="jumbotron jumbotron-container-carta p-0" id="menu-5-lateral">
+          <a href="#menu-1"><h1 class="h1-lateral pt-4">Diario</h1></a>
+          <a href="#menu-2"><h1 class="h1-lateral">Degustación</h1></a>
+          <a href="#menu-3"><h1 class="h1-lateral">Granaino</h1></a>
+          <a href="#menu-4"><h1 class="h1-lateral">Italiano</h1></a>
+        </div>
+      </div>
+      <div class="offset-md-4 col-md-8">
+        <div class="row">
+          <div class="col-12">
+            <div class="jumbotron jumbotron-container-carta" id="menu-1">
+              <h1 class="h1-jumbotron">Diario 8,50 €</h1>
+              <div class="row row-cartas">
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Primero
+                    <p class="lead">2 opciones disponibles, cada día cambian los platos disponibles</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Segundo
+                    <p class="lead">2 opciones disponibles, cada día cambian los platos disponibles</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Postre
+                    <p class="lead">Flan, natillas, helado o café</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Bebida
+                    <p class="lead">Refreso o agua</p>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="jumbotron jumbotron-container-contacto">
-          <h1 class="h1-jumbotron">Localización</h1>
-          <div class="row">
-            <div class="col-12 contenedor-mapa">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.1359421391827!2d-3.646533170752132!3d37.234804066478695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fdf3ebaf8bab%3A0x5042c3b2e1ad5b54!2sCalle+Lanjar%C3%B3n%2C+8%2C+18220+Albolote%2C+Granada!5e0!3m2!1ses!2ses!4v1517834397243"
-                frameborder="0" style="border:0" allowfullscreen id="mapa"></iframe>
+          <div class="col-12">
+            <div class="jumbotron jumbotron-container-carta" id="menu-2">
+              <h1 class="h1-jumbotron">Degustación 18,50 €</h1>
+              <div class="row row-cartas">
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    12 Platos
+                    <p class="lead">Compuesto por 4 entrantes, 4 primeros y 4 segundos que le permitirán degustar nuestros platos mas especiales.</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Postre
+                    <p class="lead">Flan, natillas, helado o café</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Bebida
+                    <p class="lead">Refreso o agua</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="jumbotron jumbotron-container-carta" id="menu-3">
+              <h1 class="h1-jumbotron">Granaino 12,50 €</h1>
+              <div class="row row-cartas">
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Ensalada
+                    <p class="lead">Ensalada con hortalizas de Granada</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Patatas a lo pobre
+                    <p class="lead">Patatas a lo pobre con aceite de oliva de la provincia, pimientos verdes y chorizo de la tierra</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Postre
+                    <p class="lead">Pionono de Granada o café</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Bebida
+                    <p class="lead">Refreso o agua</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="jumbotron jumbotron-container-carta" id="menu-4">
+              <h1 class="h1-jumbotron">Italiano 14,50 €</h1>
+              <div class="row row-cartas">
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Ensalada
+                    <p class="lead">Ensalada de pasta italiana con 3 variantes diferentes de pasta</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Pizza
+                    <p class="lead">Pizza al gusto (máximo 4 ingredientes), cada ingrediente adicional suma 0,5€ al precio final</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Postre
+                    <p class="lead">Flan, natillas, helado o café</p>
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <p class="titulo">
+                    Bebida
+                    <p class="lead">Refreso o agua</p>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- <div class="py-4 my-4"></div> -->
   </div>
   <footer class="footer bg-primary text-white">
     <div class="row text-center mx-0">

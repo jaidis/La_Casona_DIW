@@ -19,6 +19,14 @@ $('#bebidas').hide().addClass("hide").addClass("fade");
 $('#menus').hide().addClass("hide").addClass("fade");
 $('#menu-lateral').hide().addClass("hide").addClass("fade");
 
+//Menú
+
+$('#menu-1').hide().addClass("hide").addClass("fade");
+$('#menu-2').hide().addClass("hide").addClass("fade");
+$('#menu-3').hide().addClass("hide").addClass("fade");
+$('#menu-4').hide().addClass("hide").addClass("fade");
+$('#menu-5-lateral').hide().addClass("hide").addClass("fade");
+
 //Reserva
 
 $('.jumbotron-container-reserva').hide().addClass("hide").addClass("fade");
@@ -106,6 +114,30 @@ $(document).ready(function() {
   setTimeout(() => {
     $('#menu-lateral').addClass("show").removeClass("hide").addClass("animated").addClass("slideInLeft");
   }, 5300);
+
+  //Menú
+
+  $('#menu-1').show();
+  $('#menu-2').show();
+  $('#menu-3').show();
+  $('#menu-4').show();
+  $('#menu-5-lateral').show();
+
+  setTimeout(() => {
+    $('#menu-1').addClass("show").removeClass("hide").addClass("animated").addClass("slideInUp");
+  }, 1500);
+  setTimeout(() => {
+    $('#menu-2').addClass("show").removeClass("hide").addClass("animated").addClass("slideInUp");
+  }, 2300);
+  setTimeout(() => {
+    $('#menu-3').addClass("show").removeClass("hide").addClass("animated").addClass("slideInUp");
+  }, 3000);
+  setTimeout(() => {
+    $('#menu-4').addClass("show").removeClass("hide").addClass("animated").addClass("slideInUp");
+  }, 3700);
+  setTimeout(() => {
+    $('#menu-5-lateral').addClass("show").removeClass("hide").addClass("animated").addClass("slideInUp");
+  }, 3900);
 
   //Reserva
 
